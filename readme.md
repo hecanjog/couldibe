@@ -1,3 +1,9 @@
+- Try the seero.py haiku approach for drum sounds
+  - basic formula: split @ zero crossings, then shuffle and selectively repeat small pockets
+  - just do it to moments, preserve generally the original sound
+
+## Long-form version notes (a suite mix)
+
 identify as many qualities as possible as gamut
 
 give it a flow that makes sense over about 20 minutes
