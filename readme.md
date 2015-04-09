@@ -1,4 +1,4 @@
-- Try the seero.py haiku approach for drum sounds
+- Try the seero.py haiku approach for _any_ ~~drum~~ sounds
   - basic formula: split @ zero crossings, then shuffle and selectively repeat small pockets
   - just do it to moments, preserve generally the original sound
 
