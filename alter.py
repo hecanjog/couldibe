@@ -9,16 +9,22 @@ lens = [ dsp.mstf(l * 40 + 30) for l in lens ]
 
 out = ''
 
-lpos = 0
-rpos = dsp.mstf(100)
-for i in range(numgrains):
-    l = dsp.cut(snd, lpos, lens[i])
-    r = dsp.cut(snd, rpos, lens[i])
+numsegs = 8
+spos = 0
 
-    lpos += dsp.mstf(dsp.rand(1, 10))
-    rpos += dsp.mstf(dsp.rand(1, 10))
+for s in range(numsegs):
+    lpos = spos
+    rpos = spos + dsp.mstf(100)
+    for i in range(numgrains):
+        l = dsp.cut(snd, lpos, lens[i])
+        r = dsp.cut(snd, rpos, lens[i])
 
-    out += dsp.pan(l, 0)
-    out += dsp.pan(r, 1)
+        lpos += dsp.mstf(dsp.rand(1, 10))
+        rpos += dsp.mstf(dsp.rand(1, 10))
+
+        out += dsp.pan(l, 0)
+        out += dsp.pan(r, 1)
+
+    spos += dsp.flen(snd) / 8
 
 dsp.write(out, 'alter')
