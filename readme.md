@@ -1,1 +1,25 @@
-https://gist.github.com/hecanjog/0b539a785dff75ef6bde
+identify as many qualities as possible as gamut
+
+give it a flow that makes sense over about 20 minutes
+
+sections:
+
+  - isolate and magnify timbres
+    - hoover synth drones for intro
+    - vocal drones become rhythms?
+      - phoneme beats
+    - the click bass
+    - vocoder vox
+    - modulated triangle lead arp voice
+    - dry electronic drums... points / particles / clusters
+      - granular section / layer
+    - arp guitar
+    - distant talking?
+  - focus on rhythm
+    - clave synth
+    - 1 / 1 / 1 / 1
+    - triplets over quarters (voice esp)
+  - re-set melody over new harmony
+    - the longer vocal melodies
+    - arp counterpoint that leans into substitution chords...
+    - tracking common tones with drones throughout...
